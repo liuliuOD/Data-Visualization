@@ -45,3 +45,8 @@ class visualize () :
         plt.clf()
 
         return self
+
+    def save (self, imgName = "test.png") :
+        plt.savefig(imgName)
+
+        return self
